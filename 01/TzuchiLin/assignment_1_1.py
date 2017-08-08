@@ -17,7 +17,7 @@ while i<5:
 		break
 	i+=1		
 if i==5:
-	print("太笨了，下次再来！")
+	print("太笨了，下次再来！正确值是:",random_num)
 
 
 
