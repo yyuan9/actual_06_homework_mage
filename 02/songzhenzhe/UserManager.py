@@ -62,10 +62,10 @@ while True:
             print("用户信息不存在")
 
     elif str == "find":
-    	name = input("请输入要查找的用户名：")
-    	for user in users:
-    		if user[0] == name:
-    			print(user)
+        name = input("请输入要查找的用户名：")
+        for user in users:
+            if user[0] == name:
+                print(user)
 
     elif str == "list":
         for i in users:
