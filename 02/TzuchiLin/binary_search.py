@@ -10,7 +10,7 @@ start = 0
 end = len(nums)-1
 
 while True:
-	middle_num =  start + (end-start)//2  #另一种写法middle_num = int(start + (end-start)//2  
+	middle_num =  start + (end-start)//2  #另一种写法middle_num = int(start + (end-start)//2  )
 	if input_num == nums[middle_num]:
 		print("找到了！ 索引位置是:",middle_num)
 		break
